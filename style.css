@@ -1,0 +1,94 @@
+H1, H2, P { text-align: center }
+
+/* Hide all pages by default */
+.page {
+    display: none;
+}
+
+/* Show the active page */
+.page.active {
+    display: block;
+}
+
+body {
+  background-color:	#FFFFFF;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter';
+    color:	#2C2C2C;
+}
+
+#logo {
+    padding-right: 20px;
+    padding-top, padding-bottom: 0px;
+}
+
+.topnav {
+    padding: 0px;
+}
+
+#menu_group {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.topnav {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Calibri';
+  align-items: center;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.topnav a.active {
+  text-decoration: underline;
+}
+
+.topnav a:hover {
+  font-style: italic;
+}
+
+#content {
+    background-image:url(Banner.png);
+    width:100%;
+    min-height: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.text-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.5); /* optional translucent background */
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
